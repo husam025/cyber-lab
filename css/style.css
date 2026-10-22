@@ -63,3 +63,35 @@ header p{
 	font-size: 1rem;
 	color: #A0A6B5;
 }
+
+.intro{
+	margin: 20px auto;
+	padding: 24px;
+	border: 1px solid var(--border);
+	border-radius: 12px;
+	background-color: var(--surface);
+	max-width: 800px;
+}
+
+.intro h2{
+	color: var(--accent);
+	margin-top: 0;
+	font-size: 1.75rem;
+	margin-bottom: 20px;
+}
+
+.intro p{
+	color: #A0A6B5;
+	font-size: 1rem;
+	margin-bottom: 16px;
+	line-height: 1.8;
+}
+
+.intro img{
+	width: 100%;
+	max-width: 400px;
+	height: auto;
+	border-radius: 8px;
+	display: block;
+	margin: 0 auto;
+}
