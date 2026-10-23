@@ -95,3 +95,46 @@ header p{
 	display: block;
 	margin: 0 auto;
 }
+
+.projects-section{
+	display: grid;
+	max-width: 1100px;
+	margin: 0 auto;
+	padding: 24px;
+	grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+	gap: 24px;
+}
+.projects-section > h2{
+	grid-column: 1/-1; /*Allows the heading to take up the entire*/
+}
+
+.project-card{
+	background-color: var(--surface);
+	border: 1px solid var(--border);
+	border-radius: 12px;
+	padding: 24px;
+}
+
+.project-card img{
+	width: 100%;
+	max-width: 400px;
+	height: auto;
+	display: block;
+	margin: 0 auto;
+}
+
+.project-card h3{
+	color: var(--accent);
+}
+
+.project-card a{
+	text-decoration: none;
+	color: var(--accent);
+	transition: color 0.2s;
+
+}
+
+.project-card a:hover{
+	color: white;
+	text-shadow: 0 0 8px var(--accent);
+}
